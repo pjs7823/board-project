@@ -25,6 +25,7 @@ bin/
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+!**/src/main/java/org/boardproject1/domain/**
 
 ### NetBeans ###
 /nbproject/private/
@@ -35,4 +36,5 @@ out/
 
 ### VS Code ###
 .vscode/
-/src/
+!/src/main/java/org/practice/boardproject1/domain/Article.java
+!/src/main/java/org/practice/boardproject1/domain/ArticleComment.java
